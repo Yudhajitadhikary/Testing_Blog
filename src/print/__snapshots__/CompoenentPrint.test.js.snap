@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render TextFieldAtom component 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <CardPrint>
+    <div>
+      <div
+        style={
+          Object {
+            "color": "green",
+            "fontSize": "30px",
+            "paddingLeft": "30px",
+            "textAlign": "center",
+          }
+        }
+      >
+        Here's a print copy of data you entered :)
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "padding": "20px 20px 20px 50px ",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "color": "Red",
+              "fontSize": "22px",
+              "paddingRight": "10px",
+            }
+          }
+        >
+          Email:
+        </div>
+        <div
+          style={
+            Object {
+              "fontSize": "22px",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "padding": "20px 20px 20px 50px ",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "color": "Red",
+              "fontSize": "22px",
+              "paddingRight": "10px",
+            }
+          }
+        >
+          Password:
+        </div>
+        <div
+          style={
+            Object {
+              "fontSize": "22px",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "padding": "20px 20px 20px 50px ",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "color": "Red",
+              "fontSize": "22px",
+              "paddingRight": "10px",
+            }
+          }
+        >
+          Pincode:
+        </div>
+        <div
+          style={
+            Object {
+              "fontSize": "22px",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "padding": "20px 20px 20px 50px ",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "color": "Red",
+              "fontSize": "22px",
+              "paddingRight": "10px",
+            }
+          }
+        >
+          Address:
+        </div>
+        <div
+          style={
+            Object {
+              "fontSize": "22px",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "padding": "20px 20px 20px 50px ",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "color": "Red",
+              "fontSize": "22px",
+              "paddingRight": "10px",
+            }
+          }
+        >
+          PhoneNo:
+        </div>
+        <div
+          style={
+            Object {
+              "fontSize": "22px",
+            }
+          }
+        />
+      </div>
+    </div>
+  </CardPrint>
+</Provider>
+`;

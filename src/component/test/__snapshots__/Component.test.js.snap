@@ -1,0 +1,1092 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render TextFieldAtom component 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(Card)>
+    <Card
+      address=""
+      email=""
+      password=""
+      phoneno=""
+      pincode=""
+      submitAction={[Function]}
+    >
+      <div>
+        <d
+          content={[Function]}
+          copyStyles={true}
+          pageStyle="@page { size: auto;  margin: 0mm; } @media print { body { -webkit-print-color-adjust: exact; } }"
+          removeAfterPrint={false}
+          suppressErrors={false}
+          trigger={[Function]}
+        >
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "lemonchiffon",
+                "marginLeft": "50%",
+                "textAlign": "center",
+                "width": "62px",
+              }
+            }
+          >
+            Print
+          </button>
+        </d>
+        <div
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <CardPrint
+            address=""
+            email=""
+            password=""
+            phoneno=""
+            pincode=""
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "color": "green",
+                    "fontSize": "30px",
+                    "paddingLeft": "30px",
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Here's a print copy of data you entered :)
+              </div>
+              <div
+                style={
+                  Object {
+                    "display": "flex",
+                    "padding": "20px 20px 20px 50px ",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "color": "Red",
+                      "fontSize": "22px",
+                      "paddingRight": "10px",
+                    }
+                  }
+                >
+                  Email:
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "22px",
+                    }
+                  }
+                />
+              </div>
+              <div
+                style={
+                  Object {
+                    "display": "flex",
+                    "padding": "20px 20px 20px 50px ",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "color": "Red",
+                      "fontSize": "22px",
+                      "paddingRight": "10px",
+                    }
+                  }
+                >
+                  Password:
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "22px",
+                    }
+                  }
+                />
+              </div>
+              <div
+                style={
+                  Object {
+                    "display": "flex",
+                    "padding": "20px 20px 20px 50px ",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "color": "Red",
+                      "fontSize": "22px",
+                      "paddingRight": "10px",
+                    }
+                  }
+                >
+                  Pincode:
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "22px",
+                    }
+                  }
+                />
+              </div>
+              <div
+                style={
+                  Object {
+                    "display": "flex",
+                    "padding": "20px 20px 20px 50px ",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "color": "Red",
+                      "fontSize": "22px",
+                      "paddingRight": "10px",
+                    }
+                  }
+                >
+                  Address:
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "22px",
+                    }
+                  }
+                />
+              </div>
+              <div
+                style={
+                  Object {
+                    "display": "flex",
+                    "padding": "20px 20px 20px 50px ",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "color": "Red",
+                      "fontSize": "22px",
+                      "paddingRight": "10px",
+                    }
+                  }
+                >
+                  PhoneNo:
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontSize": "22px",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </CardPrint>
+        </div>
+        <div>
+           
+          <div
+            id="testId"
+          >
+            0
+          </div>
+          <div
+            id="testOnClick"
+            onClick={[Function]}
+          >
+            Total Count
+          </div>
+        </div>
+        <Component2
+          action={[Function]}
+          count={0}
+        >
+          <div>
+            <button
+              id="button"
+              onClick={[Function]}
+            >
+              Count Total
+            </button>
+            <div>
+              0
+            </div>
+            <Component1>
+              <div
+                style={
+                  Object {
+                    "display": "flex",
+                  }
+                }
+              >
+                <div>
+                  <div>
+                    <div>
+                      Yudhajit Adhikary
+                    </div>
+                    <div>
+                      Koyena Adhikary
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <div>
+                      Blog
+                    </div>
+                    <div>
+                      Blog1
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Component1>
+          </div>
+        </Component2>
+        <div>
+          <Formik
+            initialValues={
+              Object {
+                "address": "",
+                "confirmPassword": "",
+                "email": "",
+                "password": "",
+                "phoneno": "",
+                "pincode": "",
+              }
+            }
+            onSubmit={[Function]}
+            render={[Function]}
+            validationSchema={
+              ObjectSchema {
+                "_blacklist": RefSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "_conditions": Array [],
+                "_defaultDefault": [Function],
+                "_deps": Array [],
+                "_excludedEdges": Array [],
+                "_exclusive": Object {},
+                "_mutate": undefined,
+                "_nodes": Array [
+                  "address",
+                  "phoneno",
+                  "pincode",
+                  "confirmPassword",
+                  "password",
+                  "email",
+                ],
+                "_options": Object {
+                  "abortEarly": true,
+                  "recursive": true,
+                },
+                "_type": "object",
+                "_typeError": [Function],
+                "_whitelist": RefSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "fields": Object {
+                  "address": StringSchema {
+                    "_blacklist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_conditions": Array [],
+                    "_deps": Array [],
+                    "_exclusive": Object {
+                      "required": true,
+                    },
+                    "_mutate": undefined,
+                    "_options": Object {
+                      "abortEarly": true,
+                      "recursive": true,
+                    },
+                    "_type": "string",
+                    "_typeError": [Function],
+                    "_whitelist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "tests": Array [
+                      [Function],
+                    ],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                    "type": "string",
+                  },
+                  "confirmPassword": StringSchema {
+                    "_blacklist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_conditions": Array [],
+                    "_deps": Array [],
+                    "_exclusive": Object {
+                      "required": true,
+                    },
+                    "_mutate": undefined,
+                    "_options": Object {
+                      "abortEarly": true,
+                      "recursive": true,
+                    },
+                    "_type": "string",
+                    "_typeError": [Function],
+                    "_whitelist": RefSet {
+                      "list": Set {
+                        null,
+                      },
+                      "refs": Map {
+                        "password" => Reference {
+                          "getter": [Function],
+                          "isContext": false,
+                          "isSibling": true,
+                          "isValue": false,
+                          "key": "password",
+                          "map": undefined,
+                          "path": "password",
+                        },
+                      },
+                    },
+                    "_whitelistError": [Function],
+                    "tests": Array [
+                      [Function],
+                    ],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                    "type": "string",
+                  },
+                  "email": StringSchema {
+                    "_blacklist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_conditions": Array [],
+                    "_deps": Array [],
+                    "_exclusive": Object {
+                      "email": false,
+                      "required": true,
+                    },
+                    "_mutate": undefined,
+                    "_options": Object {
+                      "abortEarly": true,
+                      "recursive": true,
+                    },
+                    "_type": "string",
+                    "_typeError": [Function],
+                    "_whitelist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "tests": Array [
+                      [Function],
+                      [Function],
+                    ],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                    "type": "string",
+                  },
+                  "password": StringSchema {
+                    "_blacklist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_conditions": Array [],
+                    "_deps": Array [],
+                    "_exclusive": Object {
+                      "matches": false,
+                      "min": true,
+                      "required": true,
+                    },
+                    "_mutate": undefined,
+                    "_options": Object {
+                      "abortEarly": true,
+                      "recursive": true,
+                    },
+                    "_type": "string",
+                    "_typeError": [Function],
+                    "_whitelist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "tests": Array [
+                      [Function],
+                      [Function],
+                      [Function],
+                    ],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                    "type": "string",
+                  },
+                  "phoneno": StringSchema {
+                    "_blacklist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_conditions": Array [],
+                    "_deps": Array [],
+                    "_exclusive": Object {
+                      "matches": false,
+                      "required": true,
+                    },
+                    "_mutate": undefined,
+                    "_options": Object {
+                      "abortEarly": true,
+                      "recursive": true,
+                    },
+                    "_type": "string",
+                    "_typeError": [Function],
+                    "_whitelist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "tests": Array [
+                      [Function],
+                      [Function],
+                    ],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                    "type": "string",
+                  },
+                  "pincode": StringSchema {
+                    "_blacklist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_conditions": Array [],
+                    "_deps": Array [],
+                    "_exclusive": Object {
+                      "matches": false,
+                      "required": true,
+                    },
+                    "_mutate": undefined,
+                    "_options": Object {
+                      "abortEarly": true,
+                      "recursive": true,
+                    },
+                    "_type": "string",
+                    "_typeError": [Function],
+                    "_whitelist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "tests": Array [
+                      [Function],
+                      [Function],
+                    ],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                    "type": "string",
+                  },
+                },
+                "tests": Array [],
+                "transforms": Array [
+                  [Function],
+                ],
+                "type": "object",
+              }
+            }
+          >
+            <Form>
+              <form
+                action="#"
+                onReset={[Function]}
+                onSubmit={[Function]}
+              >
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="email"
+                  >
+                    Email
+                  </label>
+                  <Field
+                    className="form-control"
+                    name="email"
+                    type="text"
+                  >
+                    <input
+                      className="form-control"
+                      name="email"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      type="text"
+                      value=""
+                    />
+                  </Field>
+                  <FormikConnect(ErrorMessageImpl)
+                    className="invalid-feedback"
+                    component="div"
+                    name="email"
+                  >
+                    <ErrorMessageImpl
+                      className="invalid-feedback"
+                      component="div"
+                      formik={
+                        Object {
+                          "dirty": false,
+                          "errors": Object {},
+                          "getFieldHelpers": [Function],
+                          "getFieldMeta": [Function],
+                          "getFieldProps": [Function],
+                          "handleBlur": [Function],
+                          "handleChange": [Function],
+                          "handleReset": [Function],
+                          "handleSubmit": [Function],
+                          "initialErrors": Object {},
+                          "initialStatus": undefined,
+                          "initialTouched": Object {},
+                          "initialValues": Object {
+                            "address": "",
+                            "confirmPassword": "",
+                            "email": "",
+                            "password": "",
+                            "phoneno": "",
+                            "pincode": "",
+                          },
+                          "isSubmitting": false,
+                          "isValid": true,
+                          "isValidating": false,
+                          "registerField": [Function],
+                          "resetForm": [Function],
+                          "setErrors": [Function],
+                          "setFieldError": [Function],
+                          "setFieldTouched": [Function],
+                          "setFieldValue": [Function],
+                          "setFormikState": [Function],
+                          "setStatus": [Function],
+                          "setSubmitting": [Function],
+                          "setTouched": [Function],
+                          "setValues": [Function],
+                          "status": undefined,
+                          "submitCount": 0,
+                          "submitForm": [Function],
+                          "touched": Object {},
+                          "unregisterField": [Function],
+                          "validateField": [Function],
+                          "validateForm": [Function],
+                          "validateOnBlur": true,
+                          "validateOnChange": true,
+                          "validateOnMount": false,
+                          "values": Object {
+                            "address": "",
+                            "confirmPassword": "",
+                            "email": "",
+                            "password": "",
+                            "phoneno": "",
+                            "pincode": "",
+                          },
+                        }
+                      }
+                      name="email"
+                    />
+                  </FormikConnect(ErrorMessageImpl)>
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="password"
+                  >
+                    Password
+                  </label>
+                  <Field
+                    className="form-control"
+                    name="password"
+                    type="password"
+                  >
+                    <input
+                      className="form-control"
+                      name="password"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      type="password"
+                      value=""
+                    />
+                  </Field>
+                  <FormikConnect(ErrorMessageImpl)
+                    className="invalid-feedback"
+                    component="div"
+                    name="password"
+                  >
+                    <ErrorMessageImpl
+                      className="invalid-feedback"
+                      component="div"
+                      formik={
+                        Object {
+                          "dirty": false,
+                          "errors": Object {},
+                          "getFieldHelpers": [Function],
+                          "getFieldMeta": [Function],
+                          "getFieldProps": [Function],
+                          "handleBlur": [Function],
+                          "handleChange": [Function],
+                          "handleReset": [Function],
+                          "handleSubmit": [Function],
+                          "initialErrors": Object {},
+                          "initialStatus": undefined,
+                          "initialTouched": Object {},
+                          "initialValues": Object {
+                            "address": "",
+                            "confirmPassword": "",
+                            "email": "",
+                            "password": "",
+                            "phoneno": "",
+                            "pincode": "",
+                          },
+                          "isSubmitting": false,
+                          "isValid": true,
+                          "isValidating": false,
+                          "registerField": [Function],
+                          "resetForm": [Function],
+                          "setErrors": [Function],
+                          "setFieldError": [Function],
+                          "setFieldTouched": [Function],
+                          "setFieldValue": [Function],
+                          "setFormikState": [Function],
+                          "setStatus": [Function],
+                          "setSubmitting": [Function],
+                          "setTouched": [Function],
+                          "setValues": [Function],
+                          "status": undefined,
+                          "submitCount": 0,
+                          "submitForm": [Function],
+                          "touched": Object {},
+                          "unregisterField": [Function],
+                          "validateField": [Function],
+                          "validateForm": [Function],
+                          "validateOnBlur": true,
+                          "validateOnChange": true,
+                          "validateOnMount": false,
+                          "values": Object {
+                            "address": "",
+                            "confirmPassword": "",
+                            "email": "",
+                            "password": "",
+                            "phoneno": "",
+                            "pincode": "",
+                          },
+                        }
+                      }
+                      name="password"
+                    />
+                  </FormikConnect(ErrorMessageImpl)>
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="confirmPassword"
+                  >
+                    Confirm Password
+                  </label>
+                  <Field
+                    className="form-control"
+                    name="confirmPassword"
+                    type="password"
+                  >
+                    <input
+                      className="form-control"
+                      name="confirmPassword"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      type="password"
+                      value=""
+                    />
+                  </Field>
+                  <FormikConnect(ErrorMessageImpl)
+                    className="invalid-feedback"
+                    component="div"
+                    name="confirmPassword"
+                  >
+                    <ErrorMessageImpl
+                      className="invalid-feedback"
+                      component="div"
+                      formik={
+                        Object {
+                          "dirty": false,
+                          "errors": Object {},
+                          "getFieldHelpers": [Function],
+                          "getFieldMeta": [Function],
+                          "getFieldProps": [Function],
+                          "handleBlur": [Function],
+                          "handleChange": [Function],
+                          "handleReset": [Function],
+                          "handleSubmit": [Function],
+                          "initialErrors": Object {},
+                          "initialStatus": undefined,
+                          "initialTouched": Object {},
+                          "initialValues": Object {
+                            "address": "",
+                            "confirmPassword": "",
+                            "email": "",
+                            "password": "",
+                            "phoneno": "",
+                            "pincode": "",
+                          },
+                          "isSubmitting": false,
+                          "isValid": true,
+                          "isValidating": false,
+                          "registerField": [Function],
+                          "resetForm": [Function],
+                          "setErrors": [Function],
+                          "setFieldError": [Function],
+                          "setFieldTouched": [Function],
+                          "setFieldValue": [Function],
+                          "setFormikState": [Function],
+                          "setStatus": [Function],
+                          "setSubmitting": [Function],
+                          "setTouched": [Function],
+                          "setValues": [Function],
+                          "status": undefined,
+                          "submitCount": 0,
+                          "submitForm": [Function],
+                          "touched": Object {},
+                          "unregisterField": [Function],
+                          "validateField": [Function],
+                          "validateForm": [Function],
+                          "validateOnBlur": true,
+                          "validateOnChange": true,
+                          "validateOnMount": false,
+                          "values": Object {
+                            "address": "",
+                            "confirmPassword": "",
+                            "email": "",
+                            "password": "",
+                            "phoneno": "",
+                            "pincode": "",
+                          },
+                        }
+                      }
+                      name="confirmPassword"
+                    />
+                  </FormikConnect(ErrorMessageImpl)>
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="address"
+                  >
+                    Address
+                  </label>
+                  <Field
+                    className="form-control"
+                    name="address"
+                    type="address"
+                  >
+                    <input
+                      className="form-control"
+                      name="address"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      type="address"
+                      value=""
+                    />
+                  </Field>
+                  <FormikConnect(ErrorMessageImpl)
+                    className="invalid-feedback"
+                    component="div"
+                    name="address"
+                  >
+                    <ErrorMessageImpl
+                      className="invalid-feedback"
+                      component="div"
+                      formik={
+                        Object {
+                          "dirty": false,
+                          "errors": Object {},
+                          "getFieldHelpers": [Function],
+                          "getFieldMeta": [Function],
+                          "getFieldProps": [Function],
+                          "handleBlur": [Function],
+                          "handleChange": [Function],
+                          "handleReset": [Function],
+                          "handleSubmit": [Function],
+                          "initialErrors": Object {},
+                          "initialStatus": undefined,
+                          "initialTouched": Object {},
+                          "initialValues": Object {
+                            "address": "",
+                            "confirmPassword": "",
+                            "email": "",
+                            "password": "",
+                            "phoneno": "",
+                            "pincode": "",
+                          },
+                          "isSubmitting": false,
+                          "isValid": true,
+                          "isValidating": false,
+                          "registerField": [Function],
+                          "resetForm": [Function],
+                          "setErrors": [Function],
+                          "setFieldError": [Function],
+                          "setFieldTouched": [Function],
+                          "setFieldValue": [Function],
+                          "setFormikState": [Function],
+                          "setStatus": [Function],
+                          "setSubmitting": [Function],
+                          "setTouched": [Function],
+                          "setValues": [Function],
+                          "status": undefined,
+                          "submitCount": 0,
+                          "submitForm": [Function],
+                          "touched": Object {},
+                          "unregisterField": [Function],
+                          "validateField": [Function],
+                          "validateForm": [Function],
+                          "validateOnBlur": true,
+                          "validateOnChange": true,
+                          "validateOnMount": false,
+                          "values": Object {
+                            "address": "",
+                            "confirmPassword": "",
+                            "email": "",
+                            "password": "",
+                            "phoneno": "",
+                            "pincode": "",
+                          },
+                        }
+                      }
+                      name="address"
+                    />
+                  </FormikConnect(ErrorMessageImpl)>
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="pincode"
+                  >
+                    Pincode
+                  </label>
+                  <Field
+                    className="form-control"
+                    name="pincode"
+                    type="pincode"
+                  >
+                    <input
+                      className="form-control"
+                      name="pincode"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      type="pincode"
+                      value=""
+                    />
+                  </Field>
+                  <FormikConnect(ErrorMessageImpl)
+                    className="invalid-feedback"
+                    component="div"
+                    name="pincode"
+                  >
+                    <ErrorMessageImpl
+                      className="invalid-feedback"
+                      component="div"
+                      formik={
+                        Object {
+                          "dirty": false,
+                          "errors": Object {},
+                          "getFieldHelpers": [Function],
+                          "getFieldMeta": [Function],
+                          "getFieldProps": [Function],
+                          "handleBlur": [Function],
+                          "handleChange": [Function],
+                          "handleReset": [Function],
+                          "handleSubmit": [Function],
+                          "initialErrors": Object {},
+                          "initialStatus": undefined,
+                          "initialTouched": Object {},
+                          "initialValues": Object {
+                            "address": "",
+                            "confirmPassword": "",
+                            "email": "",
+                            "password": "",
+                            "phoneno": "",
+                            "pincode": "",
+                          },
+                          "isSubmitting": false,
+                          "isValid": true,
+                          "isValidating": false,
+                          "registerField": [Function],
+                          "resetForm": [Function],
+                          "setErrors": [Function],
+                          "setFieldError": [Function],
+                          "setFieldTouched": [Function],
+                          "setFieldValue": [Function],
+                          "setFormikState": [Function],
+                          "setStatus": [Function],
+                          "setSubmitting": [Function],
+                          "setTouched": [Function],
+                          "setValues": [Function],
+                          "status": undefined,
+                          "submitCount": 0,
+                          "submitForm": [Function],
+                          "touched": Object {},
+                          "unregisterField": [Function],
+                          "validateField": [Function],
+                          "validateForm": [Function],
+                          "validateOnBlur": true,
+                          "validateOnChange": true,
+                          "validateOnMount": false,
+                          "values": Object {
+                            "address": "",
+                            "confirmPassword": "",
+                            "email": "",
+                            "password": "",
+                            "phoneno": "",
+                            "pincode": "",
+                          },
+                        }
+                      }
+                      name="pincode"
+                    />
+                  </FormikConnect(ErrorMessageImpl)>
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <label
+                    htmlFor="phoneno"
+                  >
+                    Contact Number
+                  </label>
+                  <Field
+                    className="form-control"
+                    name="phoneno"
+                    type="phoneno"
+                  >
+                    <input
+                      className="form-control"
+                      name="phoneno"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      type="phoneno"
+                      value=""
+                    />
+                  </Field>
+                  <FormikConnect(ErrorMessageImpl)
+                    className="invalid-feedback"
+                    component="div"
+                    name="phoneno"
+                  >
+                    <ErrorMessageImpl
+                      className="invalid-feedback"
+                      component="div"
+                      formik={
+                        Object {
+                          "dirty": false,
+                          "errors": Object {},
+                          "getFieldHelpers": [Function],
+                          "getFieldMeta": [Function],
+                          "getFieldProps": [Function],
+                          "handleBlur": [Function],
+                          "handleChange": [Function],
+                          "handleReset": [Function],
+                          "handleSubmit": [Function],
+                          "initialErrors": Object {},
+                          "initialStatus": undefined,
+                          "initialTouched": Object {},
+                          "initialValues": Object {
+                            "address": "",
+                            "confirmPassword": "",
+                            "email": "",
+                            "password": "",
+                            "phoneno": "",
+                            "pincode": "",
+                          },
+                          "isSubmitting": false,
+                          "isValid": true,
+                          "isValidating": false,
+                          "registerField": [Function],
+                          "resetForm": [Function],
+                          "setErrors": [Function],
+                          "setFieldError": [Function],
+                          "setFieldTouched": [Function],
+                          "setFieldValue": [Function],
+                          "setFormikState": [Function],
+                          "setStatus": [Function],
+                          "setSubmitting": [Function],
+                          "setTouched": [Function],
+                          "setValues": [Function],
+                          "status": undefined,
+                          "submitCount": 0,
+                          "submitForm": [Function],
+                          "touched": Object {},
+                          "unregisterField": [Function],
+                          "validateField": [Function],
+                          "validateForm": [Function],
+                          "validateOnBlur": true,
+                          "validateOnChange": true,
+                          "validateOnMount": false,
+                          "values": Object {
+                            "address": "",
+                            "confirmPassword": "",
+                            "email": "",
+                            "password": "",
+                            "phoneno": "",
+                            "pincode": "",
+                          },
+                        }
+                      }
+                      name="phoneno"
+                    />
+                  </FormikConnect(ErrorMessageImpl)>
+                </div>
+                <div
+                  className="form-group"
+                >
+                  <button
+                    className="btn btn-primary mr-2"
+                    style={
+                      Object {
+                        "marginLeft": "50%",
+                      }
+                    }
+                    type="submit"
+                  >
+                    Register
+                  </button>
+                </div>
+              </form>
+            </Form>
+          </Formik>
+        </div>
+      </div>
+    </Card>
+  </Connect(Card)>
+</Provider>
+`;

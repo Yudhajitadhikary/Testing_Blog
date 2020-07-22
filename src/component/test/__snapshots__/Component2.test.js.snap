@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render TextFieldAtom component 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Component2
+    action={[MockFunction]}
+  >
+    <div>
+      <button
+        id="button"
+        onClick={[Function]}
+      >
+        Count Total
+      </button>
+      <div />
+      <Component1>
+        <div
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <div>
+            <div>
+              <div>
+                Yudhajit Adhikary
+              </div>
+              <div>
+                Koyena Adhikary
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div>
+                Blog
+              </div>
+              <div>
+                Blog1
+              </div>
+            </div>
+          </div>
+        </div>
+      </Component1>
+    </div>
+  </Component2>
+</Provider>
+`;
